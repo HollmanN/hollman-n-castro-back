@@ -1,11 +1,11 @@
-####3 - PREGUNTAS		(10	puntos)
+#### 3 - PREGUNTAS		(10	puntos)
 Responde	y	envía	en	un	documento		las	siguientes		preguntas:
 
 1. ¿En	qué	consiste	el	principio	de	responsabilidad		única?	¿Cuál	es	su		 propósito?
 
       El principio de responsabilidad única es una directriz del desarrollo orientado a objetos, cuyo basamento se basa en que cada clase debe poseer una y sola una responsabilidad dentro del software que compone, encapsulada totalmente en su interior. Una consecuencia directa de ello es que la clase solo tendrá un "único punto de cambio".
 
-      El cumplimiento de esta directriz permite, en teoría, que los cambios dentro de una clase sean mínimos y además tengan un impacto menor en el resto de las clases del software,
+      El cumplimiento de esta directriz permite, en teoría, que los cambios dentro de una clase sean mínimos y además tengan un impacto menor en el resto de las clases del producto de software.
 
 2. ¿Qué	características tiene	según	tu opinión "buen" código o	código limpio?
 
