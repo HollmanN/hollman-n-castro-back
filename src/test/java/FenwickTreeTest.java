@@ -6,6 +6,8 @@
  * @see https://www.hackerrank.com/challenges/cube-summation
  */
 
+import domain.FenwickTree;
+import domain.Point3D;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
