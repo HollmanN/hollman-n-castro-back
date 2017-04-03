@@ -28,6 +28,13 @@ public class FenwickTree {
      */
     public void update(Point3D point, long value) {
 
+        /**
+         * The original implementation of Fenwick tree always adds a value to a position.
+         * In order to make a plain update, we have to subtract the new value vs the accumulative result
+         * to get the delta factor, before make the update process.
+         */
+        long delta = value - query(point, point);
+
         int x = point.getX();
 
         while (x <= size) {
@@ -37,7 +44,7 @@ public class FenwickTree {
                 int z = point.getZ();
 
                 while (z <= size) {
-                    tree[x][y][z] += value;
+                    tree[x][y][z] += delta;
                     z += z & (-z);
                 }
                 y += y & (-y);
