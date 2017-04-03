@@ -1,8 +1,8 @@
-/**
+package utils; /**
  * @author Hollman N
  * Created on 3/30/17.
  * <p>
- * Class Solution for Cube Summation HackerRank submit
+ * Class utils.Solution for Cube Summation HackerRank submit
  * @see https://www.hackerrank.com/challenges/cube-summation
  */
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Solution {
 
     public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named utils.Solution. */
 
         Scanner scanner = new Scanner(System.in);
 
