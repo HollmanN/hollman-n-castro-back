@@ -22,17 +22,17 @@ y qué clases pertenecen a
 
 * Ejemplo de llamada a API Rest - *URL:PORT/cube-summation/run*
 
-![Ejemplo de llamada a API Rest](img\cube-summatory-API-example.png)
+![Ejemplo de llamada a API Rest](img/cube-summatory-API-example.png)
 
 
 * Resultados en HackerRank
 
-![Resultados-hackerrank](img\hackerrank-results.png)
+![Resultados-hackerrank](img/hackerrank-results.png)
 
 
 #### 2 - CODE REFACTORING (20 puntos)
 
-![](img\backend-coding-challenge-refactor.png)
+![](img/backend-coding-challenge-refactor.png)
 
 Refactorice y envíe el código y en un documento explique las malas prácticas de programación que en su criterio son evidenciadas en el código y cómo su refactorización supera las malas prácticas de programación
 
